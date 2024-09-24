@@ -2,13 +2,20 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div className='bg-white p-8 max-w-7xl mx-auto container flex justify-between items-center'>
-        <header className="text-center w-80 h-7 top-20 left-32 mb-12">
-          <h1 className='text-red-600 text-xl font-bold text-center w-80 h-7 top-50 left-100 mb-12'>BUILD 2X FASTER 2X BETTER</h1>
-          <h2 className='font-oswald text-3xl font-bold text-center w-96 h-7 top-20 left-80 mb-12' >Design, Build And Scale Your Product Journey With Us.</h2>
-        </header>
+    <div className="bg-white py-20 px-8 mx-14">
+      <h3 className="text-red-600 font-bold text-left">BUILD 2X FASTER 2X BETTER</h3>
+      <h1 className="mt-4 text-4xl md:text-5xl font-bold text-gray-900 text-left">
+        Design, Build And Scale Your 
+      </h1>
+      <h1 className="mt-4 text-4xl md:text-5xl font-bold text-gray-900 text-left">
+         Product Journey With Us.
+      </h1>
+      <div className="mt-8 flex justify-between items-center">
+        
+        <img src="src\assets\Talk to us.svg" alt="" className="w-25 h-25 flex items-center"/>
+        <p className="text-xs text-gray-500">Web Design / UX UI / Development</p>
+      </div>
     </div>
-    
   )
 }
 
