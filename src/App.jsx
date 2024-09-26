@@ -6,10 +6,12 @@ import Form from './components/Form'
 import Header from './components/Header'
 import Header1 from './components/Header1'
 import Navbar from './components/Navbar'
+
 function App() {
 
   return (
     <>
+    <div className="font-oswald ">
       <Navbar/>
       <Header/>
       <Header1/>
@@ -17,7 +19,7 @@ function App() {
       <Cards2/>
       <Form/>
       <Footer/>
-      
+      </div>
     </>
   )
 }
