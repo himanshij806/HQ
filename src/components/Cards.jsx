@@ -2,9 +2,14 @@ import React from 'react'
 
 const Cards = () => {
   return (
+    <div className="bg-black text-white py-12 px-4">
 
-    <div className="bg-gray-800 text-white py-12 px-4">
-      <h2 className="text-left text-4xl font-bold mb-8">INDUSTRIES COVERED</h2>
+      <h2 className="text-left text-4xl mb-8">
+        <span>
+          <span className="text-gray-300">INDUSTRIES </span>
+          <span className="text-white font-bold">COVERED</span>
+        </span>
+      </h2>
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
         
         <div className="bg-gray-700 rounded-lg p-6 space-y-4">
